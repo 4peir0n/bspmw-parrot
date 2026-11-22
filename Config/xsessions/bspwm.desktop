@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=bspwm
+Comment=Binary space partitioning window manager
+Exec=/usr/bin/bspwm
+TryExec=/usr/bin/bspwm
+Type=Application
+DesktopNames=BSPWM

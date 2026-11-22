@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+# Resize the focused tiled node by moving one of its edges.
+case "$1" in
+    west)  bspc node -z left   -20 0 ;;
+    south) bspc node -z bottom 0 20 ;;
+    north) bspc node -z top    0 -20 ;;
+    east)  bspc node -z right  20 0 ;;
+    *)     exit 1 ;;
+esac
